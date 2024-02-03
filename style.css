@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 70%;
+    height: 600px;
+    display: flex;
+    background-image: url("https://www.etq-amsterdam.com/cdn/shop/files/image00001_Dekstop_1080x.png?v=1701167209");
+}
+nav ul{
+    display: flex;
+    margin: 50px;
+}
+nav li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    
+}
+h2{
+    position: absolute;
+    left: 10px;
+}
+.right{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+    top: 15%;
+    right: 5%;
+    
+}
+.right li{
+    margin: 20px;
+}
+.right li:hover{
+    text-decoration: underline;
+}
+.rsection{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+.rsection h2{
+    position: relative;
+    left: 4px;
+}
+.rsection h4{
+    position: relative;
+    
+}
+.r1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.col{
+    width: 700px;
+    height: 600px;
+    background-color: whitesmoke;
+    margin: 20px;
+    background-color: white;
+}
+.col1{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding: 10px;
+    
+}
+.col2{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .col3{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ h3{
+   padding: 40px;}
+
+.r2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.col1 .col2 .col3 .col4{
+    color: mediumvioletred;
+    border: 2px solid white;
+    padding: 50pxpx;
+}
+.r3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutETQ{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+.aboutETQ{
+    width: 300px;
+    height: 200px;
+    background-color:white;
+    margin: 30px;
+    position: absolute;
+   top: 405%;
+   left: 40px;
+}
+.address{
+    width: 300px;
+    height: 200px;
+   background-color: white;
+   position: absolute;
+   top: 409%;
+   left: 400px;
+}
+.contact{
+    width: 300px;
+    height: 200px;
+   background-color: white;
+   position: absolute;
+   top: 409%;
+   left: 700px;
+   margin: 5px;
+}
+.contact,h5{
+    color: black;
+}
+.info{
+    width: 300px;
+    height: 200px;
+   background-color: white;
+   position: absolute;
+   top: 409%;
+   left: 1000px;
+   margin: 5px;
+}
+.followus{
+width: 300px;
+    height: 200px;
+   background-color: white;
+   position: absolute;
+   top: 409%;
+   left: 1200px;
+   margin: 5px;
+}
